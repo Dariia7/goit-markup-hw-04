@@ -323,19 +323,26 @@
                 margin-bottom: 8px;
             }
             
-                        .section-four{
-                            
-                        }
-                         .clients-list{
-                            
-                         }
-                         .clients-item{
-                            
-                         }
-                         .clients-link{
-                            
+                     
+            .clients-list{
+                display: flex;
+                justify-content: center;
+                gap: 24px;
+            }
+           
+            .clients-link{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 168px;
+                height: 88px;
 
-                         }
-                         .clients-icon {
-                           
-                         }
+                border: 1px solid #8E8F99;
+                border-radius: 2px;
+            }
+            .clients-link:hover{
+                border-color: var(--primary-blue-color);
+            }
+            .clients-link:hover .clients-icon {
+                fill: var(--primary-blue-color);
+            }
