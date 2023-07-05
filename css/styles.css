@@ -92,9 +92,13 @@
     background-color:var(--brand-color);
     padding-top: 188px;
     padding-bottom: 188px;
-    
-   
-}
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-image: center;
+    background-size: cover;
+ }
+
 .button{
     font-family: "Roboto",sans-serif;
     font-weight: 500;
@@ -364,4 +368,15 @@
             }
             .clients-link:hover .clients-icon {
                 fill: var(--primary-blue-color);
+            }
+            /*Section one*/
+            .antenna{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 112px;
+                background-color: var(--background-color);
+                border-radius: 4px;
+                margin-bottom: 8px;
+                
             }
