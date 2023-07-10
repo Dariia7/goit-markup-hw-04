@@ -312,7 +312,7 @@
          .network-deco{
             display: flex;
             justify-content: center;
-            gap: 24px;
+            gap: 16px;
             }
 
          .icons-deco{
@@ -330,11 +330,10 @@
          }
          
          .network-footer{
-            align-items: baseline;
-            display: flex;
+             display: flex;
          }
             .network-footer-second{
-                padding: 32px 0;
+                
                 display: flex;
                 justify-content: center;
                 align-items: center;
