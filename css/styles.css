@@ -95,6 +95,7 @@
     margin-left: auto;
 }
 .hero{
+    margin: 0 auto;
     background-color:var(--brand-color);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -360,7 +361,7 @@
                     height: 100%;
                  }
             .icons-footer:hover{
-                background-color: #31d0aa; 
+                background-color: #31d0aa;
                 }
             .icons-footer:focus{
                 background-color: #31d0aa;
